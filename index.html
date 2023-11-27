@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suit</title>
+    <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon">
+    <!-- Sambungan ke berkas CSS untuk styling -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Bagian utama permainan -->
+    <section class="container">
+      <!-- Field untuk menampilkan hasil permainan -->
+      <div class="result_field">
+        <!-- Gambar hasil untuk pengguna dan komputer -->
+        <div class="result_images">
+          <span class="pengguna_result">
+            <!-- Gambar untuk hasil pengguna (default: Batu) -->
+            <img src="images/Batu.png" alt="" />
+            <h3 style="color: #0024C2;">Kamu</h3>
+          </span>
+          <span class="komputer_result">
+            <!-- Gambar untuk hasil komputer (default: Batu) -->
+            <img src="images/Batu.png" alt="" />
+            <h3 style="color: #0024C2;">Komputer</h3>
+          </span>
+        </div>
+        <!-- Text untuk menampilkan hasil permainan -->
+        <div class="result">Ayo Mulai!!</div>
+      </div>
+
+      <!-- Opsi gambar untuk pengguna memilih -->
+      <div class="option_images">
+        <!-- Opsi untuk Batu -->
+        <span class="option_image">
+          <!-- Gambar Batu -->
+          <img src="images/Batu.png" alt="" />
+          <!-- Text menunjukkan jenis opsi (Batu) -->
+          <p>Batu</p>
+        </span>
+        <!-- Opsi untuk Gunting -->
+        <span class="option_image">
+          <!-- Gambar Gunting -->
+          <img src="images/Kertas.png" alt="" />
+          <!-- Text menunjukkan jenis opsi (Kertas) -->
+          <p>Kertas</p>
+        </span>
+        <!-- Opsi untuk Kertas -->
+        <span class="option_image">
+          <!-- Gambar Kertas -->
+          <img src="images/Gunting.png" alt="" />
+          <!-- Text menunjukkan jenis opsi (Gunting) -->
+          <p>Gunting</p>
+        </span>
+      </div>
+    </section>
+
+    <!-- Sambungan ke berkas JavaScript dengan defer untuk menunda eksekusi -->
+    <script src="script.js" defer></script>
+  </body>
+</html>

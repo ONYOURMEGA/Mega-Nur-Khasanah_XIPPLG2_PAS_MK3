@@ -42,7 +42,7 @@ body {
 }
 @keyframes komputerShake {
   50% {
-    transform: rotate(-10deg);
+    transform: rotate(-50deg);
   }
 }
 .result_images img {
@@ -95,4 +95,38 @@ body {
   font-size: 1.235rem;
   margin-top: 1rem;
   pointer-events: none;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0; /* Hapus margin bawaan dari body */
+}
+
+.container {
+  flex: 1;
+}
+
+.apps-footer {
+  background-color: #f6f7fb; /* Sesuaikan dengan warna latar belakang yang diinginkan */
+  padding: 20px;
+  text-align: center;
+  width: 100%; /* Footer menjadi full width */
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0; /* Hapus margin bawaan dari body */
+}
+
+.container {
+  flex: 1;
+}
+
+.apps-header {
+  background-color: #f6f7fb; /* Sesuaikan dengan warna latar belakang yang diinginkan */
+  padding: 20px;
+  text-align: center;
+  width: 100%; /* Footer menjadi full width */
 }
